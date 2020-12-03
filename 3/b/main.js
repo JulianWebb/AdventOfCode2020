@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { start } = require('repl');
 
 const Map = require('./map');
 const offsets = require('./offsets.json');
@@ -20,7 +19,7 @@ let simulateTravel = async (map, startingCoordinates, offsets) => {
     return treeCount;
 }
 
-fs.readFile('slope-map', { encoding: 'utf8' }, (error, data) => {
+fs.readFile('nicola-map', { encoding: 'utf8' }, (error, data) => {
     if (error) throw error;
 
     let map = new Map(data.split('\n'));

@@ -24,8 +24,4 @@ class Segment {
         this.y = y;
         this.tree = notation == "#" ? true : false;
     }
-
-    get coordinates() {
-        return [this.x, this.y];        
-    }
 }
