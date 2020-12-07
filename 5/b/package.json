@@ -1,0 +1,11 @@
+{
+  "name": "adventofcode-5b",
+  "version": "0.1.0",
+  "description": "Fifth Day Part 2 - 2020",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Webb",
+  "license": "MIT"
+}
